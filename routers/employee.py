@@ -7,8 +7,7 @@ from schemas.employee import EmployeeCreate
 
 router = APIRouter(
     prefix="/employees",
-    tags=["Employees"]
-)
+    tags=["Employees"])
 
 
 @router.post("")

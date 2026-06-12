@@ -25,5 +25,4 @@ app.include_router(ticket_router)
 def home():
     return {
         "message":
-        "Helpdesk Ticket Management System"
-    }
+        "Helpdesk Ticket Management System"}
